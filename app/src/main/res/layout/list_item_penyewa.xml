@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+       
+        <TextView
+            android:id="@+id/tvIdPenyewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Penyewa"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/tvNamaPenyewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nama Penyewa"
+            android:textSize="15sp"
+            android:layout_below="@id/tvIdPenyewa"
+            />
+        <TextView
+            android:id="@+id/tvAlamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Alamat"
+            android:textSize="15sp"
+            android:layout_below="@id/tvNamaPenyewa"
+            />
+        <TextView
+            android:id="@+id/tvNoHp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="No HP "
+            android:textSize="15sp"
+            android:layout_below="@id/tvAlamat"
+            />
+    </RelativeLayout>
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+</LinearLayout>

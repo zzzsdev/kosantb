@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context="kelompok7.kosanretrofit.Penyewa2Activity">
+    <TextView
+        android:id="@+id/tvIdPenyewa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Penyewa  "
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvNamaPenyewa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama  "
+        android:layout_below="@id/tvIdPenyewa2"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvAlamat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat  "
+        android:layout_below="@id/tvNamaPenyewa2"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvNoHp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Hp  "
+        android:layout_below="@id/tvAlamat2"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edtidpenyewa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Id Penyewa"
+        android:layout_toRightOf="@+id/tvIdPenyewa2"
+        android:layout_alignBaseline="@+id/tvIdPenyewa2"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edtnamapenyewa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nama Penyewa"
+        android:layout_alignBaseline="@+id/tvNamaPenyewa2"
+        android:layout_alignLeft="@+id/edtidpenyewa"/>
+    <EditText
+        android:id="@+id/edtAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:layout_alignBaseline="@+id/tvAlamat2"
+        android:layout_alignLeft="@+id/edtidpenyewa"
+        />
+    <EditText
+        android:id="@+id/edtNoHp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="No Hp"
+        android:layout_alignBaseline="@+id/tvNoHp2"
+        android:layout_alignLeft="@+id/edtidpenyewa"
+        android:inputType="number"
+        />
+
+    <LinearLayout
+        android:id="@+id/Linearlayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tvNoHp2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/btInsert2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Insert"
+            android:drawableLeft="@drawable/ic_check_black_24dp"/>
+
+        <Button
+            android:id="@+id/btBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_clear_black_24dp"
+            android:text=" Back"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Muncul disini"
+        android:layout_below="@+id/Linearlayout2"
+        android:textSize="20sp"
+        android:inputType="textMultiLine"/>
+</RelativeLayout>

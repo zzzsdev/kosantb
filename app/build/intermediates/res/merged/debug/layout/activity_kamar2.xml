@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post_put_del_pembeli"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context="kelompok7.kosanretrofit.Create.InsertKamarActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp">
+
+
+
+    <TextView
+        android:id="@+id/tvIdKamar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Kamar "
+        android:layout_below="@id/btnBrowse"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvNamaKamar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Kamar  "
+        android:layout_below="@id/tvIdKamar2"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvHarga2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga  "
+        android:layout_below="@id/tvNamaKamar2"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvFasilitas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fasilitas  "
+        android:layout_below="@id/tvHarga2"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvDeskripsi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi  "
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tvFasilitas2"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edtIdKamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Id Kamar"
+        android:layout_alignBaseline="@+id/tvIdKamar2"
+        android:layout_alignBottom="@+id/tvIdKamar2"
+        android:layout_toRightOf="@+id/tvNamaKamar2"
+        android:layout_toEndOf="@+id/tvNamaKamar2"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edtNamaKamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nama Kamar"
+        android:layout_alignBaseline="@+id/tvNamaKamar2"
+        android:layout_alignLeft="@+id/edtIdKamar"/>
+    <EditText
+        android:id="@+id/edtHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:layout_alignBaseline="@+id/tvHarga2"
+        android:layout_alignLeft="@+id/edtIdKamar"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edtFasilitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Fasilitas"
+        android:layout_alignBaseline="@+id/tvFasilitas2"
+        android:layout_alignLeft="@+id/edtIdKamar"
+        />
+    <EditText
+        android:id="@+id/edtDeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi"
+        android:layout_alignBaseline="@+id/tvDeskripsi2"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/edtIdKamar"/>
+    <LinearLayout
+        android:id="@+id/Linearlayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tvDeskripsi2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp">
+        <!--<Button-->
+            <!--android:id="@+id/btInsert2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Insert"/>-->
+        <Button
+            android:id="@+id/btUpdate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_edit_black_24dp"
+            android:text=" Update"/>
+        <Button
+            android:id="@+id/btDelete2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            android:text=" Delete"/>
+        <Button
+            android:id="@+id/btBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_undo_black_24dp"
+            android:text=" Back"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Muncul disini"
+        android:layout_below="@+id/Linearlayout2"
+        android:textSize="20sp"
+        android:inputType="textMultiLine"/>
+    </RelativeLayout>
+</ScrollView>

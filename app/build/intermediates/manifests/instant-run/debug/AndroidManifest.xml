@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kelompok7.kosanretrofit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- <uses-feature android:name="android.hardware.camera"/> -->
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Kosan "
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="kelompok7.kosanretrofit.MainActivity" >
+        </activity>
+        <activity android:name="kelompok7.kosanretrofit.SewaActivity" />
+        <activity android:name="kelompok7.kosanretrofit.PenyewaActivity" />
+        <activity android:name="kelompok7.kosanretrofit.KamarActivity" />
+        <activity android:name="kelompok7.kosanretrofit.Kamar2Activity" />
+        <activity android:name="kelompok7.kosanretrofit.Penyewa2Activity" />
+        <activity android:name="kelompok7.kosanretrofit.Sewa2Activity" />
+        <activity android:name="kelompok7.kosanretrofit.Create.InsertPenyewaActivity" />
+        <activity android:name="kelompok7.kosanretrofit.Create.InsertKamarActivity" />
+        <activity android:name="kelompok7.kosanretrofit.Create.InsertSewaActivity" />
+        <activity android:name="kelompok7.kosanretrofit.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="kelompok7.kosanretrofit.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

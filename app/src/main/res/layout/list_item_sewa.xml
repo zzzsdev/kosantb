@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tvIdSewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Sewa"
+
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/tvTglMulai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Mulai"
+            android:textSize="15sp"
+            android:layout_below="@id/tvIdSewa"
+            />
+        <TextView
+            android:id="@+id/tvTglSewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Sewa"
+            android:textSize="15sp"
+            android:layout_below="@id/tvTglMulai"
+            />
+        <TextView
+            android:id="@+id/tvIdKamars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Kamar"
+            android:textSize="15sp"
+            android:layout_below="@id/tvTglSewa"
+            />
+        <TextView
+            android:id="@+id/tvIdPenyewas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Id Penyewa"
+            android:textSize="15sp"
+            android:layout_below="@id/tvIdKamars"
+            />
+    </RelativeLayout>
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+</LinearLayout>

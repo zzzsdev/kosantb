@@ -1,0 +1,149 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:11:22-62
+application
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:13:5-41:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\zs\.android\build-cache\b9e9eb57a6d4c00e648140209c7c2abc8e93268e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\zs\.android\build-cache\3dfcf6412d460e693a07d746f91a808c40d5bdb8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\zs\.android\build-cache\6d01f5c33a4712a938f5fd3d6901d4d9db1b9921\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\zs\.android\build-cache\d3d561b6c1a3b927c92bd8b7724fa6ca84e0b7db\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\zs\.android\build-cache\6500a9840dfe1ddf292e27da2929b3757831d49f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\zs\.android\build-cache\405d56c477eccf4b76d431fa898e76beeee36c84\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\zs\.android\build-cache\e459312d5230ff8bff553c487b95ac7698f25a5c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\zs\.android\build-cache\8dae8014c30b0135296feeb691f32552a2f7bf1e\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\zs\.android\build-cache\11de4b271eea2827a1619df1ac5e342c60a47ec2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\zs\.android\build-cache\f5528d68e2564287e8da153f12adb96adf7efa1d\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:16:9-31
+	android:supportsRtl
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:18:9-35
+	android:roundIcon
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:17:9-54
+	android:allowBackup
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:15:9-43
+	android:theme
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:19:9-40
+activity#kelompok7.kosanretrofit.MainActivity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:20:9-22:20
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:20:19-47
+activity#kelompok7.kosanretrofit.SewaActivity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:23:9-50
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:23:19-47
+activity#kelompok7.kosanretrofit.PenyewaActivity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:24:9-53
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:24:19-50
+activity#kelompok7.kosanretrofit.KamarActivity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:25:9-51
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:25:19-48
+activity#kelompok7.kosanretrofit.Kamar2Activity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:26:9-52
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:26:19-49
+activity#kelompok7.kosanretrofit.Penyewa2Activity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:27:9-54
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:27:19-51
+activity#kelompok7.kosanretrofit.Sewa2Activity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:29:9-51
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:29:19-48
+activity#kelompok7.kosanretrofit.Create.InsertPenyewaActivity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:30:9-66
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:30:19-63
+activity#kelompok7.kosanretrofit.Create.InsertKamarActivity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:31:9-64
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:31:19-61
+activity#kelompok7.kosanretrofit.Create.InsertSewaActivity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:32:9-63
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:32:19-60
+activity#kelompok7.kosanretrofit.LoginActivity
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:33:9-40:20
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:33:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml:37:27-74
+uses-sdk
+INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\zs\.android\build-cache\b9e9eb57a6d4c00e648140209c7c2abc8e93268e\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\zs\.android\build-cache\3dfcf6412d460e693a07d746f91a808c40d5bdb8\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\zs\.android\build-cache\6d01f5c33a4712a938f5fd3d6901d4d9db1b9921\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\zs\.android\build-cache\d3d561b6c1a3b927c92bd8b7724fa6ca84e0b7db\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\zs\.android\build-cache\6500a9840dfe1ddf292e27da2929b3757831d49f\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\zs\.android\build-cache\405d56c477eccf4b76d431fa898e76beeee36c84\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\zs\.android\build-cache\e459312d5230ff8bff553c487b95ac7698f25a5c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\zs\.android\build-cache\8dae8014c30b0135296feeb691f32552a2f7bf1e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\zs\.android\build-cache\ee08cbdf6500f1926b89488ae4745e879d228a1c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\zs\.android\build-cache\11de4b271eea2827a1619df1ac5e342c60a47ec2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\zs\.android\build-cache\f5528d68e2564287e8da153f12adb96adf7efa1d\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\zs\.android\build-cache\b9e9eb57a6d4c00e648140209c7c2abc8e93268e\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\zs\Downloads\KosanRetrofit\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\zs\.android\build-cache\b9e9eb57a6d4c00e648140209c7c2abc8e93268e\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\zs\.android\build-cache\3dfcf6412d460e693a07d746f91a808c40d5bdb8\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\zs\.android\build-cache\6d01f5c33a4712a938f5fd3d6901d4d9db1b9921\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\zs\.android\build-cache\d3d561b6c1a3b927c92bd8b7724fa6ca84e0b7db\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\zs\.android\build-cache\6500a9840dfe1ddf292e27da2929b3757831d49f\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\zs\.android\build-cache\405d56c477eccf4b76d431fa898e76beeee36c84\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\zs\.android\build-cache\e459312d5230ff8bff553c487b95ac7698f25a5c\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\zs\.android\build-cache\ee08cbdf6500f1926b89488ae4745e879d228a1c\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\zs\.android\build-cache\11de4b271eea2827a1619df1ac5e342c60a47ec2\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\zs\.android\build-cache\f5528d68e2564287e8da153f12adb96adf7efa1d\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\zs\.android\build-cache\b9e9eb57a6d4c00e648140209c7c2abc8e93268e\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\zs\.android\build-cache\b9e9eb57a6d4c00e648140209c7c2abc8e93268e\output\AndroidManifest.xml:26:9-47

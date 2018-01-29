@@ -1,0 +1,7 @@
+#Mon Jan 29 11:10:19 ICT 2018
+base.0=C\:\\Users\\zs\\Downloads\\KosanRetrofit\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b3993ce9a908a805487162195a4d857bb5f5c210
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\zs\\Downloads\\KosanRetrofit\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0766a2415ae0c328131f77a3785cb067fca8649d\\classes.dex
+base.1=C\:\\Users\\zs\\Downloads\\KosanRetrofit\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0766a2415ae0c328131f77a3785cb067fca8649d
+file.0=C\:\\Users\\zs\\Downloads\\KosanRetrofit\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b3993ce9a908a805487162195a4d857bb5f5c210\\classes.dex

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/blank_top">
+    </View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Kos Yuk Apps!"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:id="@+id/txv_welcome"
+        android:layout_below="@+id/blank_top"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txv_welcome"
+        android:id="@+id/blank_mid">
+    </View>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:layout_centerVertical="true"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/txt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorWhite"
+            android:hint="Username or Email"
+            android:padding="5dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:background="@color/colorWhite"
+
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/txt_password"
+            android:hint="Password"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Remember Me"
+            android:id="@+id/chk_remember"
+            android:layout_below="@+id/txt_password" />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03a678"
+        android:textColor="@color/colorWhite"
+        android:text="LOGIN!"
+
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/linearLayout"
+        android:onClick="button_onClick"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/btn_login"
+        android:id="@+id/blank_bottom">
+    </View>
+
+
+</RelativeLayout>

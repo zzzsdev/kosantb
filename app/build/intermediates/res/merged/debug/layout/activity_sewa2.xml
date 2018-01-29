@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context="kelompok7.kosanretrofit.Kamar2Activity">
+    <TextView
+        android:id="@+id/tvIdSewa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Sewa "
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvTglMulai2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Mulai  "
+        android:layout_below="@id/tvIdSewa2"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvTglSewa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Selesai  "
+        android:layout_below="@id/tvTglMulai2"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvKamars2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Kamar "
+        android:layout_below="@id/tvTglSewa2"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tvPenyewas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id Penyewa  "
+        android:layout_below="@id/tvKamars2"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/edtIdSewa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Id Sewa"
+        android:layout_alignBaseline="@+id/tvIdSewa2"
+        android:layout_alignBottom="@+id/tvIdSewa2"
+        android:layout_toRightOf="@+id/tvTglMulai2"
+        android:layout_toEndOf="@+id/tvTglMulai2"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edtTglMulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Mulai"
+        android:layout_alignBaseline="@+id/tvTglMulai2"
+        android:layout_alignLeft="@+id/edtIdSewa"
+        android:inputType="date"/>
+    <EditText
+        android:id="@+id/edtTglSewa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Selesai"
+        android:layout_alignBaseline="@+id/tvTglSewa2"
+        android:layout_alignLeft="@+id/edtIdSewa"
+        android:inputType="date"/>
+    <EditText
+        android:id="@+id/edtIdKamars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Id Kamar"
+        android:layout_alignBaseline="@+id/tvKamars2"
+        android:layout_alignLeft="@+id/edtIdSewa"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edtIdPenyewas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Id Penyewa"
+        android:layout_alignBaseline="@+id/tvPenyewas2"
+        android:layout_alignLeft="@+id/edtIdSewa"
+        android:inputType="number"/>
+    <LinearLayout
+        android:id="@+id/Linearlayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/tvPenyewas2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <!--<Button-->
+            <!--android:id="@+id/btInsert2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Insert"/>-->
+        <Button
+            android:id="@+id/btUpdate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_edit_black_24dp"
+            android:text=" Update"/>
+        <Button
+            android:id="@+id/btDelete2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            android:text=" Delete"/>
+        <Button
+            android:id="@+id/btBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_undo_black_24dp"
+            android:text=" Back"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan Muncul disini"
+        android:layout_below="@+id/Linearlayout2"
+        android:textSize="20sp"
+        android:inputType="textMultiLine"/>
+</RelativeLayout>
